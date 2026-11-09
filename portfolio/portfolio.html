@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raya Deppas | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Forum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/portfolio/navigation.css">
+    <link rel="stylesheet" href="/portfolio/portfolio.css">
+</head>
+
+<body>
+
+    <nav aria-label="Main">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <main>
+    <section id="home">
+        <header>
+            <p class="eyebrow">Raya Amina B. Deppas</p>
+            <h1 class="name">Hi! My name is Raya.</h1>
+            <p class="short-intro">Raya is a second-year Bachelor of Science in Information Technology (BSIT) student at the University of the Cordilleras. She has a strong interest in learning new technologies and enjoys exploring the world of programming, where she can develop her problem-solving skills and creativity. She is particularly interested in web design and web development, as she enjoys creating websites that are both visually appealing and functional.</p>
+            <div class="cta">
+                <a class="btn primary" href="#projects">See my projects</a>
+                <a class="btn" href="#contacts">Get in touch</a>
+            </div>
+        </header>
+    </section>
+
+    <section id="about">
+        <div class="panel about">
+            <div>
+                <h2 class="section-title">All about me</h2>
+                <p class="section-sub">The biography of Raya</p>
+                <p class="biography">Born and raised in Baguio City, Benguet, Raya celebrates her birthday on September 4, 2007. She completed her high school education at Baguio City High School (BCHS) and is now pursuing a BSIT degree at the University of the Cordilleras. She is passionate about learning new technologies and developing her skills in programming and web development as she works toward a career in the IT industry.</p>
+
+                <p class="label">Her hobbies</p>
+                <div class="hobbies">
+                    <span class="hobby">Cooking</span>
+                    <span class="hobby">Eating</span>
+                    <span class="hobby">Baking</span>
+                    <span class="hobby">Watching movies</span>
+                    <span class="hobby">Sleeping</span>
+                </div>
+            </div>
+            <div class="about-2">
+                <img class="pic1" src="/pic1.jpg" alt="Raya, photo 1">
+                <img class="pic2" src="/pic2.jpg" alt="Raya, photo 2">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="panel">
+            <div class="skills-head">
+                <h2 class="section-title">What skills can I offer?</h2>
+                <p class="section-sub">I am currently using and learning</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill"><img src="/portfolio/skills-images/HTML-logo.webp" alt="HTML logo"><span>HTML</span></div>
+                <div class="skill"><img src="/portfolio/skills-images/CSS-logo.png" alt="CSS logo"><span>CSS</span></div>
+                <div class="skill"><img src="/portfolio/skills-images/Java-logo.png" alt="Java logo"><span>Java</span></div>
+                <div class="skill"><img src="/portfolio/skills-images/Git-logo.png" alt="Git logo"><span>Git</span></div>
+                <div class="skill"><img src="/portfolio/skills-images/MySQL-logo.png" alt="MySQL logo"><span>MySQL</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="panel">
+            <div class="projects-heading">
+                <h2 class="section-title">Featured projects</h2>
+                <p>A selection of recent work showing design, development, and problem-solving.</p>
+            </div>
+            <div class="projects-grid">
+                <article class="projects-container">
+                    <div class="project-image">
+                        <img src="/portfolio/projects-images/project-1.webp" alt="Mini Cafe Website">
+                        <a href="cafe.html" target="_blank" rel="noopener">Visit this project ↗</a>
+                    </div>
+                    <div class="project-info">
+                        <h3>Mini Cafe Website</h3>
+                        <p>A cozy café website showcasing its menu, treats, and drinks through a simple and inviting design.</p>
+                    </div>
+                </article>
+
+                <article class="projects-container">
+                    <div class="project-image">
+                        <img src="/portfolio/projects-images/project-2.jpg" alt="Local Spa Web App">
+                        <a href="project2.html" target="_blank" rel="noopener">Visit this project ↗</a>
+                    </div>
+                    <div class="project-info">
+                        <h3>Local Spa Web App</h3>
+                        <p>A user-friendly spa web app showing available treatments, services, and booking options.</p>
+                    </div>
+                </article>
+
+                <article class="projects-container">
+                    <div class="project-image">
+                        <img src="/portfolio/projects-images/prject-3.jpg" alt="UI/UX Design">
+                        <a href="project3.html" target="_blank" rel="noopener">Visit this project ↗</a>
+                    </div>
+                    <div class="project-info">
+                        <h3>UI/UX Design</h3>
+                        <p>A visually appealing and intuitive interface designed to improve usability and navigation.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="panel">
+            <h2 class="section-title">Contacts</h2>
+            <p class="section-sub">Send me a message below.</p>
+
+            <form class="form" action="" method="post">
+                <div class="form-row">
+                    <div><label for="first-name">First name</label>
+                        <input id="first-name" name="first-name" type="text" class="input" placeholder="First name" required></div>
+                    <div><label for="last-name">Last name</label>
+                        <input id="last-name" name="last-name" type="text" class="input" placeholder="Last name" required></div>
+                </div>
+                <div><label for="email">Email</label>
+                    <input id="email" name="email" type="email" class="input" placeholder="you@example.com" required></div>
+                <div><label for="subject">Subject</label>
+                    <input id="subject" name="subject" type="text" class="input" placeholder="What's this about?"></div>
+                <div><label for="comments">Message</label>
+                    <textarea id="comments" name="comments" class="input" placeholder="Write your message" required></textarea></div>
+                <button type="submit" class="btn primary">Send message</button>
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <footer>© 2026 Raya Amina B. Deppas</footer>
+
+    <script>
+        const links = document.querySelectorAll('nav a');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + e.target.id));
+                }
+            });
+        }, { rootMargin: '-40% 0px -55% 0px' });
+        document.querySelectorAll('section[id]').forEach(s => observer.observe(s));
+    </script>
+</body>
+</html>

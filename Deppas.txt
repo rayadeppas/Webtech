@@ -1,0 +1,375 @@
+commit ee15e5eea08e0b8fe4685d946a3dd5b76db880f9
+Author:     rayadeppas <rayadeppas@gmail.com>
+AuthorDate: 2026-11-09 01:29:44 +0000
+Commit:     rayadeppas <rayadeppas@gmail.com>
+CommitDate: 2026-11-09 01:29:44 +0000
+
+    Initial commit: save past codes and files
+
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..2a43693
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1,30 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=h1, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1></h1>
++    <h2></h2>
++    <h2></h2>
++
++    <p></p>
++    <p></p>
++    <p></p>
++
++    <div></div>
++    <span></span>
++    
++    <header></header>
++    
++    <nav></nav>
++    
++    <main></main>
++    
++    <section></section>
++    
++    <footer></footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..8ffc441
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,76 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=p, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <p class="introduction"></p>
++
++    <div id="container"></div>
++
++    <div class="card featured"></div>
++
++    <section id="about" class="content-section"></section>
++
++    <p>PART 3 - TASKS: </p>
++    <header class="site-header"></header>
++    <nav id="main-nav"></nav>
++    <main class="content"></main>
++    <section id="about"></section>
++    <footer class="site-footer"></footer>
++
++    <p>PART 4: </p>
++        <ul>
++            <li></li>
++        </ul>
++
++        <nav>
++            <ul>
++                <li></li>
++            </ul>
++        </nav>
++
++        <nav>
++            <ul>
++                <li></li>
++                <li></li>
++                <li></li>
++                <li></li>
++                <li></li>
++            </ul>
++        </nav>
++
++        <h1></h1>
++        <p></p>
++
++        <h1></h1>
++        <h2></h2>
++        <p></p>
++        <p></p>
++
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++
++        <div></div>
++        <div></div>
++        <div></div>
++
++        <P></P>
++        <P></P>
++        <P></P>
++        <P></P>
++        <P></P>
++
++    <p>PART 5: </p>
++        <h1>Web Technologies</h1>
++        <p>Welcome to my webpage.</p>
++
++        <h1>My Web Development Journey</h1>
++        <p>I am learning HTML, CSS, Javascript, and web development.</p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..7695cf4
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,66 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li class="item1"></li>
++        <li class="item2"></li>
++        <li class="item3"></li>
++        <li class="item4"></li>
++        <li class="item5"></li>
++    </ul>
++
++    <ul>
++        <li>Menu 1</li>
++        <li>Menu 2</li>
++        <li>Menu 3</li>
++        <li>Menu 4</li>
++        <li>Menu 5</li>
++    </ul>
++
++    <p>PART 7:</p>
++    <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">About</a></li>
++            <li><a href="">Services</a></li>
++            <li><a href="">Projects</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <li><a href="">Menu 1</a></li>
++            <li><a href="">Menu 2</a></li>
++            <li><a href="">Menu 3</a></li>
++            <li><a href="">Menu 4</a></li>
++            <li><a href="">Menu 5</a></li>
++        </ul>
++    </nav>
++
++    <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">About</a></li>
++            <li><a href="">Portfolio</a></li>
++            <li><a href="">Services</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++    </nav>
++
++    <p>PART 8:</p>
++    <input type="text">type="text"</input>
++    <input type="text" placeholder="Enter your name">
++
++    <input type="text" placeholder="Enter your email">
++    
++    <img src="images/profilepic.webp" alt="Profile Photo">
++
++    <a href="https://www.google.com">Google</a>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..4e62159
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,22 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <input type="text" name="" id="">
++    <input type="email" name="" id="">
++    <input type="password" name="" id="">
++    <input type="checkbox" name="" id="">
++    <input type="radio" name="" id="">
++    <input type="submit" value="">
++
++    <p>STUDENT REGISTRATION FORM:</p>
++    <input type="number" name="" id="" placeholder="00-0000-000">
++    <input type="text" name="" id="" placeholder="Full Name">
++    <input type="email" name="" id="" placeholder="Email">
++    <input type="password" name="" id="" placeholder="Password">
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..eedf77d
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,38 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header></header>
++    <nav></nav>
++    <main></main>
++    <section></section>
++    <article></article>
++    <aside></aside>
++    <footer></footer>
++
++    <header>
++        <h1>BBM for the Win</h1>
++    </header>
++    <nav>
++        <ul>
++            <li><a href="https://i.pinimg.com/originals/82/3a/98/823a987eeaafd76d8062f649dd881987.jpg?nii=t">BBM Pag Puyat</a></li>
++            <li><a href="https://i.pinimg.com/736x/bf/f0/4e/bff04e1068a11562caedbd54f5b88835.jpg">Wacky</a></li>
++            <li><a href="https://i.pinimg.com/originals/e6/c6/9a/e6c69a9a8e117f80580ada2ee7a0535c.jpg?nii=t">BBMxDuterte</a></li>
++            <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5kD4Jxc5fN22zzaoi_FTuTrRsA6DE6B1cNhYjSn3-1EtCy2qO2K8CRcF8&s=10">Kim Jong Il</a></li>
++        </ul>
++    </nav>
++    <main>
++        <section>
++            <article></article>
++        </section>
++    </main>
++
++    <footer>
++        <p></p>
++    </footer>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/images/profilepic.webp b/emmet-laboratory/images/profilepic.webp
+new file mode 100644
+index 0000000..6cdc13c
+Binary files /dev/null and b/emmet-laboratory/images/profilepic.webp differ
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..2c5cd90
+--- /dev/null
++++ b/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file
+
+commit cf3520231ee78d4da3276179ed19b94b107ea597
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-07 10:00:21 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-07 10:00:21 +0800
+
+    first commit
+
+diff --git a/Sidung b/Sidung
+index e69de29..75a07c2 100644
+--- a/Sidung
++++ b/Sidung
+@@ -0,0 +1,51 @@
++Sidung
++
++  nan marikriknak, tet-ewa na
++  wat iitaw ay waday chansak en sik-a
++  nu mamingsan, mamagmaga
++  nan layad ko ay marikriknak
++  para en sik-a
++ 
++  ngem ammok met kitdi ay kaman
++  magay namnama tan kaman ka san talaw
++  ay mael-ela issan daya
++
++  sik-ay eyak laylayden
++  ngem adak ammo nu sak-en to metlaeng
++  mangidawtam sin layad moohohoh
++  ngem salamat tan sik-ay esay sidung ko
++  lalalalallala
++  lalallalala
++ 
++  maga di ay,     maamagak
++ inamag ko met kabaelak ngem
++  pulos magay mabalinak
++  adak ammo, adak layden
++  sik-a ladta kumaaaahh
++ 
++  ngem ammook met kitdi ay kaman
++  magay namnama,   tan kaman ka san talaw
++  ay mael-ela issan daya
++ 
++  sik-ay eyak laylayden
++  ngem adak ammo nu sak-en to metlaeng
++  mangidawtam sin layad moohohoh
++  ngem salamat  tan sik-ay esay sidung ko
++ 
++Em   C   G   D
++   lalalalallala
++Em   C   G   D
++   lalalalallala
++ 
++Em     D       G     Em         D           G
++  naeyak ladta,   manseseed en sik-a
++   Em                  D                 G
++  ngem nu pulos magay pamay-an nan
++    C
++  layad ko
++D
++  nemnemnemmem kuma ladta
++             C
++  ay sakken di ay esa'y
++                           D         G
++  nanbalin ay sidung mo
+\ No newline at end of file
+
+commit c089f3aa6a2af671d100650f848c4b6be79d40c3
+Author:     M307 User <M307User@lab.uc-bcf.local>
+AuthorDate: 2026-09-07 09:57:12 +0800
+Commit:     M307 User <M307User@lab.uc-bcf.local>
+CommitDate: 2026-09-07 09:57:12 +0800
+
+    first commit
+
+diff --git a/Sidung b/Sidung
+new file mode 100644
+index 0000000..e69de29
